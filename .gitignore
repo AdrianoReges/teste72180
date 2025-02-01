@@ -4,5 +4,5 @@
 *.csv
 *.txt
 *.parquet
-*.json
+# *.json
 __pycache__
