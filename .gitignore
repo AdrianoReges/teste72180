@@ -2,7 +2,7 @@
 
 *.env
 *.csv
-# *.txt
+*.txt
 *.parquet
-# *.json
+*.json
 __pycache__
