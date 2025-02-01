@@ -1,8 +1,8 @@
-!config.json
-!requeriments.txt
+!configs
 
 *.env
 *.csv
 # *.txt
 *.parquet
-*.json
+# *.json
+__pycache__
