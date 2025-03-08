@@ -1,0 +1,17 @@
+
+{% extends "base.html" %}
+
+{% block title %}Início - Blog{% endblock %}
+
+{% block content %}
+<h2>Bem-vindo ao Blog</h2>
+<ul class="posts">
+    <h3>Últimos Posts</h3>  <!-- Adicionar um título para a lista de posts -->
+    {% for post in posts %}
+    <li>
+        <a href="{% url 'AppBlog:detalhe_post' post.id %}">{{ post.titulo }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
